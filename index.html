@@ -5,6 +5,7 @@
 	<title>literature show文学·秀</title>
 	<link rel="stylesheet" type="text/css" href="css/novel.css">
 	<link rel="stylesheet" type="text/css" href="css/novel1.css">
+	<link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />  
 </head>
 
 <body>
@@ -55,7 +56,7 @@
 				</div>
 				<span></span>
 				<input type="text" class="clearInput" value="微微一笑很倾城">
-				<input type="image" class="searchBtn" src="images/searchBtn.png">
+				<input type="button" class="searchBtn">
 				<div class="hotWords">
 					热词：
 					<a href="#" target="_blank">暗黑者</a>
@@ -68,10 +69,10 @@
 		<!-- 菜单栏 -->
 		<div id="headNavTop" class="headNavTop">
 			<div class="pageCenter cf">
-				<div class="headNavLeft fl" onmouseover="allCategory()">
+				<div class="headNavLeft fl">
 					<ul>
 						<li class="nav01" style="margin-left: 30px;">
-							<a href="${pageContext.request.contextPath}/index">首页</a>
+							<a href="index.html">首页</a>
 						</li>
 						<li class="nav01">
 							<span id="all">全部分类</span>
@@ -101,6 +102,9 @@
 							<span id="all">亲子家教</span>
 						</li>
 						<li class="nav01">
+							<span id="all">两性关系</span>
+						</li>
+						<li class="nav01">
 							<span id="all">保健养生</span>
 						</li>
 						<li class="nav01">
@@ -112,6 +116,12 @@
 						<li class="nav01">
 							<span id="all">心理学</span>
 						</li>
+						<li class="nav01">
+							<span id="all">时尚美妆</span>
+						</li>
+						<li class="nav01">
+							<span id="all">社会学</span>
+						</li>
 					</ul>
 				</div>				
 			</div>
@@ -120,7 +130,7 @@
 		<!-- 动图 -->
 		<div class="slider">
 				<div class="conbox">
-					<div style="">
+					<div style="position: absolute;z-index: 1;padding: 20px;padding-left: 42px;">
 						<a target="_blank" href="#">
 							<img width="900" height="350" src="images/b1.jpg">
 						</a>

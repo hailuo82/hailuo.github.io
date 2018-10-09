@@ -163,7 +163,7 @@ a.book{
 }
 .titleSearch .searchBtn{
 	float:right;
-	background:url(images/searchBtn.png) no-repeat;
+	background:url(../images/searchBtn.png) no-repeat;
 	width: 36px;
 	height: 34px;
 	cursor: pointer;
@@ -227,7 +227,7 @@ input{
 	background-attachment: scroll;
 	background-clip: border-box;
 	background-color: rgba(0, 0, 0, 0);
-	background-image: url(images/chtit.png);
+	background-image: url(../images/chtit.png);
 	background-origin: padding-box;
 	background-size: auto;
 	display: block;
