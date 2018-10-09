@@ -1,0 +1,46 @@
+body {
+	background-color: #f4f5f9;
+}
+header {
+	width: 1300px;
+	height: 100px;
+	background-color: pink;
+	margin: 0 auto; /*居中的标准写法*/
+	padding-top: 30px;
+}
+.logo {
+	width: 195px;
+	height: 40px;
+	float: left;
+	
+}
+.logo a {
+	display: block;
+	width: 195px;
+	height: 40px;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -990px; /*隐藏链接里面的文字*/
+	overflow: hidden; /*溢出部分隐藏*/
+	
+}
+nav {
+	float: left;
+	margin-left: 20px;
+	/*background-color: red;*/
+}
+nav li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 25px;
+	/*background-color: green;*/
+}
+nav li a {
+	display: block;
+	height: 40px; 
+	font-size: 18px;
+	padding: 0 10px;
+}
+nav li a:hover {
+	border-bottom: 2px solid #00a4ff;
+}
