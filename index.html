@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>literature show文学·秀</title>
-	<link rel="stylesheet" type="text/css" href="novel.css">
+	<link rel="stylesheet" type="text/css" href="css/novel.css">
+	<link rel="stylesheet" type="text/css" href="css/novel1.css">
 </head>
+
 <body>
 	<!--顶部导航-->
 	<div id="topNav" class="topNav">
@@ -53,7 +55,7 @@
 				</div>
 				<span></span>
 				<input type="text" class="clearInput" value="微微一笑很倾城">
-				<input type="button" class="searchBtn">
+				<input type="image" class="searchBtn" src="images/searchBtn.png">
 				<div class="hotWords">
 					热词：
 					<a href="#" target="_blank">暗黑者</a>
@@ -63,25 +65,80 @@
 			</div>
 		</div>
 
-		<!-- 动图-->
+		<!-- 菜单栏 -->
+		<div id="headNavTop" class="headNavTop">
+			<div class="pageCenter cf">
+				<div class="headNavLeft fl" onmouseover="allCategory()">
+					<ul>
+						<li class="nav01" style="margin-left: 30px;">
+							<a href="${pageContext.request.contextPath}/index">首页</a>
+						</li>
+						<li class="nav01">
+							<span id="all">全部分类</span>
+						</li>
+						<li class="nav01">
+							<span id="all">小说</span>
+						</li>
+						<li class="nav01">
+							<span id="all">文学</span>
+						</li>
+						<li class="nav01">
+							<span id="all">青春文学</span>
+						</li>
+						<li class="nav01">
+							<span id="all">成功励志</span>
+						</li>
+						<li class="nav01">
+							<span id="all">管理</span>
+						</li>
+						<li class="nav01">
+							<span id="all">经济</span>
+						</li>
+						<li class="nav01">
+							<span id="all">投资理财</span>
+						</li>
+						<li class="nav01">
+							<span id="all">亲子家教</span>
+						</li>
+						<li class="nav01">
+							<span id="all">保健养生</span>
+						</li>
+						<li class="nav01">
+							<span id="all">旅游地图</span>
+						</li>
+						<li class="nav01">
+							<span id="all">传记</span>
+						</li>
+						<li class="nav01">
+							<span id="all">心理学</span>
+						</li>
+					</ul>
+				</div>				
+			</div>
+		</div>
+
+		<!-- 动图 -->
 		<div class="slider">
 				<div class="conbox">
+					<div style="">
+						<a target="_blank" href="#">
+							<img width="900" height="350" src="images/b1.jpg">
+						</a>
+					</div>
+					<!--
 					<div style="position: absolute;z-index: 1;opacity: 0;">
 						<a target="_blank" href="#">
-							<img width="900" height="350" src="images/book1.jpg">
+							<img width="900" height="350" src="images/b2.jpg">
 						</a>
 					</div>
 					<div style="position: absolute;z-index: 1;opacity: 0;">
 						<a target="_blank" href="#">
-							<img width="900" height="350" src="book2.jpg">
+							<img width="900" height="350" src="images/b3.jpg">
 						</a>
 					</div>
-					<div style="position: absolute;z-index: 1;opacity: 0;">
-						<a target="_blank" href="#">
-							<img width="900" height="350" src="book3.jpg">
-						</a>
-					</div>
+					-->
 				</div>
+				<!-- 
 				<div class="switcher">
 					<a target="_blank" href="http0" class="cur"></a>
 					<a target="_blank" href="http1" class="cur"></a>
@@ -90,6 +147,7 @@
 					<a target="_blank" href="http4" class="cur"></a>
 					<a target="_blank" href="http5" class="cur"></a>
 				</div>
+				-->
 		</div>
 
 		<!-- 频道推荐板块-->
@@ -100,9 +158,9 @@
 					<div class="recLink fr">
 						<a href="http://chuangshi.qq.com/bk/ns/421661.html" target="_blank">武道霸主</a>
 						<span class="navline">|</span>
-						<a href="http://www.readnovel.com/partlist/353063.html" target="_blank">尸不语</a>
+						<a href="#" target="_blank">尸不语</a>
 						<span class="navline">|</span>
-						<a href="http://www.readnovel.com/partlist/346931.html" target="_blank">仙古至尊</a>
+						<a href="#" target="_blank">仙古至尊</a>
 					</div>
 					<h3>原创男生</h3>
 				</div>
@@ -139,35 +197,35 @@
 								</div>
 							</li>
 							<li>
-								<a href="http://www.readnovel.com/partlist/337525.html" target="_blank">
+								<a href="#" target="_blank">
 									<img src="images/book6.jpg" width="62" height="78">
 								</a>
 								<div class="otherBookInfo fl">
 									<h4>
 										《
-										<a href="http://www.readnovel.com/partlist/337525.html" target="_blank">傲世夺天决
+										<a href="#" target="_blank">傲世夺天决
 										</a>
 										》
 									</h4>
 									<p>作者：
-									<a href="http://u.readnovel.com/user/48248869.html" target="_blank">无限幻梦</a>
+									<a href="#" target="_blank">无限幻梦</a>
 									</p>
 									<p class="intro">当吾杀尽天下人，何人在敢动我人！</p>
 								</div>
 							</li>
 							<li>
-								<a href="http://www.readnovel.com/partlist/351975.html" target="_blank">
+								<a href="#" target="_blank">
 									<img src="images/book7.jpg" width="62" height="78">
 								</a>
 								<div class="otherBookInfo fl">
 									<h4>
 										《
-										<a href="http://www.readnovel.com/partlist/351975.html" target="_blank">修你丫的仙
+										<a href="#" target="_blank">修你丫的仙
 										</a>
 										》
 									</h4>
 									<p>作者：
-									<a href="http://u.readnovel.com/user/35038392.html" target="_blank">会肥的鱼</a>
+									<a href="#" target="_blank">会肥的鱼</a>
 									</p>
 									<p class="intro">若有来世，必将重回YY之道的巅峰！</p>
 								</div>

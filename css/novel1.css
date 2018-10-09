@@ -1,0 +1,250 @@
+.headNavTop{
+	background: #4095D5;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+}
+.headNavLeft ul{
+    display: inline;
+}
+.headNavLeft li.nav01 {
+	margin-left: 15px;
+}
+.headNavLeft li {
+    float: left;
+	margin-top: 8px;
+    font: 13px "宋体";
+}
+.headNavLeft li a {
+    color: #FFF;
+    display: block;
+}
+.headNavLeft li span {
+    color: #FFF;
+    display: block;
+    cursor:pointer;
+}
+.layout {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0 15px;
+    width: 1000px;
+    background: #fff;
+}
+.layout:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.bookinfo{
+    color: #333;
+    zoom: 1;
+    padding: 15px;
+    background-color: #f4f3f3;
+    width: 900px;
+    height: 300px;
+    margin-left: auto;
+	margin-right: auto;
+}
+.bookBox{
+    float: left;
+    position: relative;
+    height: 220px;
+    width: 160px;
+}
+div.book_btn {
+    text-align: left;
+    font-size: 14px;
+    height: 29px;
+    margin-top: 20px;
+}
+
+div.book_info .book_btn a{
+    color: #fff;
+    background: #8a9893;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    width: 100px;
+    background: url(../images/readBtn1.png) no-repeat;
+}
+.book_info {
+    width: 515px;
+    float: right;
+    position: relative;
+}
+.book_info h1{
+    font: bold 30px arial;
+    padding-bottom: 4px;
+    margin-top: 3px;
+}
+.book_info h1 a:hover{
+	font: bold 30px arial;
+    padding-bottom: 4px;
+    margin-top: 3px;
+    color: #660000;
+}
+.book_info dl {
+    line-height: 22px;
+    clear: both;
+    overflow: hidden;
+}
+.book_info dl dt {
+    float: left;
+    color: #999;
+}
+.book_info dl dd a:hover{
+	color: #6666ff;
+}
+.book_info dl dd.w_au {
+    width: 150px;
+    height: 22px;
+    overflow: hidden;
+}
+.book_info dl dd.w_aut{
+    width: 80px;
+    height: 22px;
+    overflow: hidden;
+}
+.book_info dl dd.w_auth{
+    width: 50px;
+    height: 22px;
+    overflow: hidden;
+}
+.book_info dl dd {
+    display: block;
+    zoom: 1;
+    float: left;
+}
+.book_btn {
+    text-align: left;
+    font-size: 14px;
+    height: 29px;
+    margin-top: 20px;
+}
+
+.book_info .book_btn a{
+    color: #fff;
+    background: #8a9893;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+    width: 100px;
+    background: url(images/readBtn1.png) no-repeat;
+}
+.book_intro{
+	height: 150px;
+}
+.thenews {
+    padding: 45px 0;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+.read_tab {
+    width: 720px;
+    height: 40px;
+    position: relative;
+    margin-left: 40px;
+	margin-right: auto;
+    border-left: 1px solid #ddd;
+}
+.read_tab ul li {
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    float: left;
+    font: normal 20px 'microsoft yahei';
+    cursor: pointer;
+    display: inline;
+    border: 1px solid #ddd;
+}
+.chapter_list {
+    margin-top: 10px;
+	margin-left: 40px;
+}
+.chapter_list li {
+    width: 355px;
+    float: left;
+    line-height: 43px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+.chapter_list li a{
+    font-weight: bold;
+    margin-left: 20px;
+    outline: none;
+    color: #333;
+    text-decoration: none;
+}
+.pr10 {
+    padding-right: 10px;
+}
+.comments_area {
+    line-height: 19px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 40px;
+}
+.textarea_normal{
+    width: 698px;
+    height: 129px;
+    border: 1px solid #Ddd;
+    border-top: 0;
+    padding: 10px;
+    line-height: 22px;
+    background-color: #f4f3f3;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    font: 12px Simsun;
+    padding-left: 5px;
+}
+.textarea_sub {
+    padding-top: 40px;
+    position: relative;
+}
+.textarea_sub {
+    text-align: right;
+    margin-right: 240px;
+}
+a.comment_btn{
+    width: 93px;
+    height: 30px;
+    display: inline-block;
+    background-color: #ffa50a;
+    color: #fff;
+    font: normal 16px 'microsoft yahei';
+    text-align: center;
+}
+.comments_tab {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #999;
+}
+.comments_tab a:hover{
+	color: #660000;
+}
+.comments {
+    margin-bottom: 30px;
+}
+.comment {
+    border-bottom: 1px solid #d8dfea;
+    line-height: 20px;
+    clear: both;
+    overflow: hidden;
+    padding-top: 10px;
+    zoom: 1;
+}
